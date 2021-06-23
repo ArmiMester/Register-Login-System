@@ -41,7 +41,7 @@ def login():
 				try:
 					if Password == data[Username]:
 						print("Login success!")
-						print("Hi ", Username)
+						print("Hello ", Username)
 					else:
 						print("Password or username are incorrect")
 				except:
